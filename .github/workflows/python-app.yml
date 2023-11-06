@@ -24,3 +24,6 @@ jobs:
     - name: Python application
       run: |
         python cnf.py
+    - name: Run pytest
+      run: |
+        pytest
